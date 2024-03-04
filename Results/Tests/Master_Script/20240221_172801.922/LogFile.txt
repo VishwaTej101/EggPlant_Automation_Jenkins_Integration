@@ -1,0 +1,4 @@
+﻿2024-02-21 17:28:01.937 +0530	START		Running Tests/Master_Script.script
+2024-02-21 17:28:02.210 +0530	EndTestCase		(Duration:"0.251", Errors:"1", Exceptions:"0", StartTime:"2024-02-21 17:28:01 +0530", Successes:"0", TestCase:"Tests/Master_Script.script", Warnings:"0")
+2024-02-21 17:28:02.425 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/Master_Script/20240221_172801.922/Screen_Error.png	CapturedErrorScreenshot	4FB598B1-033B-2000-4BA2-4EA6D0E5147E
+2024-02-21 17:28:02.431 +0530	FAILURE	Screen_Error.png	STUnknownMessage: ERROR: No Such Command: 'tc_a_login_page_' -- Execution Time 0:00:00 Tests/Master_Script.script

@@ -1,0 +1,139 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login_Page_.script",
+				"identifier": "START",
+				"timestamp": "2024-02-15 12:40:01.195 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 12:40:01.594 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 12:40:03.443 +0530",
+				"message": "chrome https://www.saucedemo.com/[returnKey]",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 12:40:03.494 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (959, 141)",
+				"image": "Login_img",
+				"handlerLine": 8,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 12:40:03.494 +0530",
+				"message": "Assertion Succeeded: (true: ImageFound(20,varlogos))",
+				"scriptName": "Common.script",
+				"handlerLine": 8,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:40:06.660 +0530",
+				"scriptName": "Common.script",
+				"message": "at (814, 254)",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:40:07.410 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:40:08.542 +0530",
+				"message": "standard_user",
+				"scriptName": "Common.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:40:09.559 +0530",
+				"scriptName": "Common.script",
+				"message": "at (814, 308)",
+				"image": "(TEXT:\"Password\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:40:10.343 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:40:11.509 +0530",
+				"message": "secret_sauce",
+				"scriptName": "Common.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-15 12:40:12.558 +0530",
+				"scriptName": "Common.script",
+				"message": "at (959, 414)",
+				"image": "(TEXT:\"Login\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_launchbrowser",
+				"timestamp": "2024-02-15 12:40:15.424 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (837, 235)",
+				"image": "(TEXT:\"Change your password\")",
+				"handlerLine": 13,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launchbrowser",
+				"timestamp": "2024-02-15 12:40:15.890 +0530",
+				"scriptName": "Custom.script",
+				"message": "at (1132, 345)",
+				"image": "ok",
+				"handlerLine": 14,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_launchbrowser",
+				"timestamp": "2024-02-15 12:40:16.360 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (950, 117)",
+				"image": "Dashboard",
+				"handlerLine": 19,
+				"identifier": "waitfor"
+			},
+		{
+				"message": "(Duration:\"15.296\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-15 12:40:01 +0530\", Successes:\"1\", TestCase:\"Tests/TC_A_Login_Page_.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-15 12:40:16.491 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:15 Tests/TC_A_Login_Page_.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-15 12:40:16.624 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-15 12:40:01.195 +0530"
+}

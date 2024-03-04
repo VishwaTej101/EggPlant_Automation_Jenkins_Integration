@@ -1,0 +1,76 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/Master_Script.script",
+				"identifier": "START",
+				"timestamp": "2024-02-26 10:46:19.913 +0530"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 10:46:20.160 +0530",
+				"message": "[windowsAltKey][F2]",
+				"scriptName": "Common.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 10:46:21.079 +0530",
+				"message": "firefox",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 10:46:21.822 +0530",
+				"message": "[return]",
+				"scriptName": "Common.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-26 10:46:21.842 +0530",
+				"message": "***",
+				"scriptName": "Custom.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-26 10:46:25.787 +0530",
+				"message": "Unable to Find Text: Username -- AutoUpdate engaged",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-26 10:46:26.046 +0530",
+				"scriptName": "Common.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Username\")\". Text not found.",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 3,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"6.242\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-02-26 10:46:19 +0530\", Successes:\"0\", TestCase:\"Tests/Master_Script.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-26 10:46:26.166 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/Master_Script/20240226_104619.902/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-02-26 10:46:26.528 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:\"Username\")\". Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\\n -- Execution Time 0:00:06 Tests/Master_Script.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-02-26 10:46:26.537 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-26 10:46:19.920 +0530"
+}

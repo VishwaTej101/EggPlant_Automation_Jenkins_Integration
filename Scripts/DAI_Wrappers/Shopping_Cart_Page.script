@@ -1,0 +1,29 @@
+﻿
+to handle shopping
+	//Action_01
+	Common.clickElement "Sauce Labs Backpack"
+	
+	//Validation_01
+	Common.validate "Sauce Labs Backpack"
+	
+	
+	wait 3
+	//Action_02
+	
+	
+	if("Add to cart") is not visible then
+		Common.validate "Remove"
+		Click item 2 of EveryImageLocation("shopping_Cart")
+	else
+		Common.clickElement "Add to cart"
+	end if
+	
+	
+	
+	wait 3
+	
+	//Action_03
+	Click item 2 of EveryImageLocation("shopping_Cart")
+	
+	
+end shopping

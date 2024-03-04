@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1656,
+		346,
+		68,
+		47
+	],
+	"lastmodifieddate": 1707981131.5770001,
+	"createddate": 1707981131.5770001,
+	"name": "Never",
+	"lastfounddate": 1708518220.918,
+	"ocrcapturestring": "Never",
+	"lastfoundlocation": [
+		1710,
+		346,
+		68,
+		47
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[34,23]",
+					"Tolerance": "_71",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Never.png",
+				"connectionname": "192.168.1.171",
+				"type": 1,
+				"connectionserverid": "192.168.1.171",
+				"capturerect": [
+					1656,
+					346,
+					68,
+					47
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Never"
+			}
+	]
+}

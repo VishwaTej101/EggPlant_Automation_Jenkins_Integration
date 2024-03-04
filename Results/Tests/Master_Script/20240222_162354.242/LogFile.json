@@ -1,0 +1,198 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/Master_Script.script",
+				"identifier": "START",
+				"timestamp": "2024-02-22 16:23:54.258 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-22 16:23:54.532 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-22 16:23:56.432 +0530",
+				"message": "chrome https://www.saucedemo.com/[returnKey]",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-22 16:23:56.459 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (959, 115)",
+				"image": "Login_img",
+				"handlerLine": 8,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-22 16:23:56.468 +0530",
+				"message": "Assertion Succeeded: (true: ImageFound(20,varlogos))",
+				"scriptName": "Common.script",
+				"handlerLine": 8,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-22 16:23:56.848 +0530",
+				"message": "***",
+				"scriptName": "Custom.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-22 16:23:57.814 +0530",
+				"scriptName": "Common.script",
+				"message": "at (814, 254)",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-22 16:23:58.564 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-22 16:23:59.700 +0530",
+				"message": "standard_user",
+				"scriptName": "Common.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-22 16:24:00.752 +0530",
+				"scriptName": "Common.script",
+				"message": "at (814, 308)",
+				"image": "(TEXT:\"Password\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-22 16:24:01.505 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-22 16:24:02.615 +0530",
+				"message": "secret_sauce",
+				"scriptName": "Common.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-22 16:24:03.629 +0530",
+				"scriptName": "Common.script",
+				"message": "at (959, 414)",
+				"image": "(TEXT:\"Login\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-22 16:24:06.789 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (837, 235)",
+				"image": "(TEXT:\"Change your password\")",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-22 16:24:06.952 +0530",
+				"scriptName": "Custom.script",
+				"message": "at (1132, 345)",
+				"image": "ok",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-22 16:24:39.505 +0530",
+				"scriptName": "Custom.script",
+				"message": "Unable to Find Image (TEXT:\"Save password?\"). Text not found.",
+				"image": "(TEXT:\"Save password?\")",
+				"handlerLine": 15,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-22 16:24:40.154 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (950, 117)",
+				"image": "Dashboard",
+				"handlerLine": 21,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-22 16:24:42.191 +0530",
+				"scriptName": "Common.script",
+				"message": "at (705, 273)",
+				"image": "(TEXT:\"Sauce Labs Backpack\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-02-22 16:24:43.843 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (971, 275)",
+				"image": "(TEXT:\"Sauce Labs Backpack\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-22 16:24:53.419 +0530",
+				"message": "Unable to Find Text: Add to cart -- AutoUpdate engaged",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-22 16:24:59.456 +0530",
+				"scriptName": "Common.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Add to cart\")\". Text not found.",
+				"image": "(TEXT:\"Add to cart\")",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"65.295\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-02-22 16:23:54 +0530\", Successes:\"1\", TestCase:\"Tests/Master_Script.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-22 16:24:59.569 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/Master_Script/20240222_162354.242/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-02-22 16:24:59.810 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:\"Add to cart\")\". Text not found.  Restricted Search Rectangle ((7,52),(1916,1037))\\n -- Execution Time 0:01:05 Tests/Master_Script.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-02-22 16:24:59.818 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-22 16:23:54.271 +0530"
+}

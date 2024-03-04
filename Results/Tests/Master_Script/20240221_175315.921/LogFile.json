@@ -1,0 +1,218 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/Master_Script.script",
+				"identifier": "START",
+				"timestamp": "2024-02-21 17:53:15.933 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-21 17:53:16.296 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-21 17:53:18.084 +0530",
+				"message": "chrome https://www.saucedemo.com/[returnKey]",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-21 17:53:20.411 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (959, 141)",
+				"image": "Login_img",
+				"handlerLine": 8,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-21 17:53:20.421 +0530",
+				"message": "Assertion Succeeded: (true: ImageFound(20,varlogos))",
+				"scriptName": "Common.script",
+				"handlerLine": 8,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-21 17:53:26.328 +0530",
+				"scriptName": "Common.script",
+				"message": "at (814, 254)",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-21 17:53:27.066 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-21 17:53:28.202 +0530",
+				"message": "standard_user",
+				"scriptName": "Common.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-21 17:53:29.319 +0530",
+				"scriptName": "Common.script",
+				"message": "at (814, 308)",
+				"image": "(TEXT:\"Password\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-21 17:53:30.073 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-21 17:53:31.172 +0530",
+				"message": "secret_sauce",
+				"scriptName": "Common.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-21 17:53:32.087 +0530",
+				"scriptName": "Common.script",
+				"message": "at (959, 414)",
+				"image": "(TEXT:\"Login\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-21 17:53:36.050 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (837, 235)",
+				"image": "(TEXT:\"Change your password\")",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-21 17:53:36.196 +0530",
+				"scriptName": "Custom.script",
+				"message": "at (1132, 345)",
+				"image": "ok",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-21 17:53:40.528 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (1599, 228)",
+				"image": "(TEXT:\"Save password?\")",
+				"handlerLine": 15,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-21 17:53:41.073 +0530",
+				"scriptName": "Custom.script",
+				"message": "at (1744, 369)",
+				"image": "Never",
+				"handlerLine": 16,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-21 17:53:41.094 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (950, 117)",
+				"image": "Dashboard",
+				"handlerLine": 21,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-21 17:53:43.332 +0530",
+				"scriptName": "Common.script",
+				"message": "at (705, 273)",
+				"image": "(TEXT:\"Sauce Labs Backpack\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-02-21 17:53:44.822 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (705, 273)",
+				"image": "(TEXT:\"Sauce Labs Backpack\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-21 17:53:46.030 +0530",
+				"scriptName": "Common.script",
+				"message": "at (937, 462)",
+				"image": "(TEXT:\"Add to cart\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-02-21 17:53:46.991 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (937, 462)",
+				"image": "(TEXT:\"Remove\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_tc_b_shopping_page",
+				"timestamp": "2024-02-21 17:53:49.338 +0530",
+				"scriptName": "Tests/TC_B_Shopping_Page.script",
+				"message": "Unable to Find Image shopping_Cart",
+				"image": "shopping_Cart",
+				"handlerLine": 15,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_b_shopping_page",
+				"timestamp": "2024-02-21 17:53:49.377 +0530",
+				"scriptName": "Tests/TC_B_Shopping_Page.script",
+				"message": "Could Not Open Image: False",
+				"image": "False",
+				"handlerLine": 15,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"33.482\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-02-21 17:53:15 +0530\", Successes:\"1\", TestCase:\"Tests/Master_Script.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-21 17:53:49.425 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/Master_Script/20240221_175315.921/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-02-21 17:53:49.648 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "File Not Found: click Error - Could Not Open Image: False -- Execution Time 0:00:33 Tests/Master_Script.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-02-21 17:53:49.656 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-21 17:53:15.940 +0530"
+}

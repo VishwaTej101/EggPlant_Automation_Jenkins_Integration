@@ -1,0 +1,76 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login_Page_.script",
+				"identifier": "START",
+				"timestamp": "2024-02-26 10:50:50.602 +0530"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 10:50:50.785 +0530",
+				"message": "[windowsAltKey][F2]",
+				"scriptName": "Common.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 10:50:51.935 +0530",
+				"message": "firefox",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 10:50:52.673 +0530",
+				"message": "[return]",
+				"scriptName": "Common.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-26 10:50:57.715 +0530",
+				"message": "***",
+				"scriptName": "Custom.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-26 10:51:00.234 +0530",
+				"message": "Unable to Find Text: Username -- AutoUpdate engaged",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-26 10:51:00.483 +0530",
+				"scriptName": "Common.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Username\")\". Text not found.",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 3,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"9.94\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-02-26 10:50:50 +0530\", Successes:\"0\", TestCase:\"Tests/TC_A_Login_Page_.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-26 10:51:00.550 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/TC_A_Login_Page_/20240226_105050.590/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-02-26 10:51:00.814 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:\"Username\")\". Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\\n -- Execution Time 0:00:09 Tests/TC_A_Login_Page_.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-02-26 10:51:00.822 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-26 10:50:50.608 +0530"
+}

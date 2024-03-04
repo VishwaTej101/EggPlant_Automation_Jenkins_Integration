@@ -1,0 +1,10 @@
+﻿2024-02-26 10:50:50.602 +0530	START		Running Tests/TC_A_Login_Page_.script
+2024-02-26 10:50:50.785 +0530	typetext		[windowsAltKey][F2]	2	on_browser_firefox	Common.script
+2024-02-26 10:50:51.935 +0530	typetext		firefox	3	on_browser_firefox	Common.script
+2024-02-26 10:50:52.673 +0530	typetext		[return]	4	on_browser_firefox	Common.script
+2024-02-26 10:50:57.715 +0530	Log		***	4	on_login_page	Custom.script
+2024-02-26 10:51:00.234 +0530	LogWarning		Unable to Find Text: Username -- AutoUpdate engaged	3	on_textentry	Common.script
+2024-02-26 10:51:00.483 +0530	Exception	(TEXT:"Username")	No Text Found On Screen: "(TEXT:"Username")". Text not found.	3	on_textentry	Common.script
+2024-02-26 10:51:00.550 +0530	EndTestCase		(Duration:"9.94", Errors:"1", Exceptions:"1", StartTime:"2024-02-26 10:50:50 +0530", Successes:"0", TestCase:"Tests/TC_A_Login_Page_.script", Warnings:"1")
+2024-02-26 10:51:00.814 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/TC_A_Login_Page_/20240226_105050.590/Screen_Error.png	CapturedErrorScreenshot	670C67FF-8CE6-3303-6CFE-3D9FA848D410
+2024-02-26 10:51:00.822 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"Username")". Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\n -- Execution Time 0:00:09 Tests/TC_A_Login_Page_.script

@@ -1,0 +1,148 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login_Page_.script",
+				"identifier": "START",
+				"timestamp": "2024-02-15 12:49:14.386 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 12:49:14.715 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 12:49:16.503 +0530",
+				"message": "chrome https://www.saucedemo.com/[returnKey]",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 12:49:16.524 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (950, 115)",
+				"image": "Login_img",
+				"handlerLine": 8,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 12:49:16.531 +0530",
+				"message": "Assertion Succeeded: (true: ImageFound(20,varlogos))",
+				"scriptName": "Common.script",
+				"handlerLine": 8,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:49:17.619 +0530",
+				"scriptName": "Common.script",
+				"message": "at (814, 254)",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:49:18.389 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:49:19.556 +0530",
+				"message": "standard_user",
+				"scriptName": "Common.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:49:20.578 +0530",
+				"scriptName": "Common.script",
+				"message": "at (814, 308)",
+				"image": "(TEXT:\"Password\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:49:21.339 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 12:49:22.456 +0530",
+				"message": "secret_sauce",
+				"scriptName": "Common.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clickelement",
+				"timestamp": "2024-02-15 12:49:23.553 +0530",
+				"scriptName": "Common.script",
+				"message": "at (959, 414)",
+				"image": "(TEXT:\"Login\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-15 12:49:26.603 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (837, 235)",
+				"image": "(TEXT:\"Change your password\")",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-15 12:49:26.764 +0530",
+				"scriptName": "Custom.script",
+				"message": "at (1132, 345)",
+				"image": "ok",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-15 12:49:57.804 +0530",
+				"scriptName": "Custom.script",
+				"message": "Unable to Find Image (TEXT:\"Save password?\"). Text not found.",
+				"image": "(TEXT:\"Save password?\")",
+				"handlerLine": 15,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_login_page",
+				"timestamp": "2024-02-15 12:49:58.479 +0530",
+				"scriptName": "Custom.script",
+				"message": "found at (950, 117)",
+				"image": "Dashboard",
+				"handlerLine": 21,
+				"identifier": "waitfor"
+			},
+		{
+				"message": "(Duration:\"44.231\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-15 12:49:14 +0530\", Successes:\"1\", TestCase:\"Tests/TC_A_Login_Page_.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-15 12:49:58.629 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:44 Tests/TC_A_Login_Page_.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-15 12:49:58.746 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-15 12:49:14.397 +0530"
+}

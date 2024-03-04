@@ -1,0 +1,31 @@
+﻿
+
+Set Credentials to CSVValue(file resourcePath("LoginCredentials.csv"))
+Log the first item of Credentials 
+
+To ReadCsvData FileName,ItemNum,LineNum
+	set MyCsvFile to ResourcePath(FileName)
+	//reading a particular item from a particular line
+	put item ItemNum of line LineNum of file MyCsvFile into ItemValue
+	//reading a particular line
+	put line LineNum of file MyFile into ItemsOfLine
+	return [ItemValue,ItemsOfLine]
+End ReadCsvData
+
+//to Read multiple records from file where the condition matches
+to ReadMultipleRecords ExcelName,SheetName,FlagValue 
+
+	set Global myDB to {file:ResourcePath(ExcelName), type:"excel",name:SheetName}
+	//set global variable to multiple records where flag matches to given value
+	Set Global CurrentRecord to the records of Global myDB where Username is FlagValue
+	
+	return (FlagValue)
+end ReadMultipleRecords
+
+ReadMultipleRecords 
+
+ReadMultipleRecords "Login_Creds_Org.xlsx","Login","Admin2" 
+
+put ReadCsvData("LoginCredentials.csv","1","2" ) into value
+
+item 1 of ReadCsvData("LoginCredentials.csv","1","2" )

@@ -1,0 +1,24 @@
+﻿2024-02-22 16:23:54.258 +0530	START		Running Tests/Master_Script.script
+2024-02-22 16:23:54.532 +0530	typetext		[windowsKey]r	3	on_launchurl	Common.script
+2024-02-22 16:23:56.432 +0530	typetext		chrome https://www.saucedemo.com/[returnKey]	5	on_launchurl	Common.script
+2024-02-22 16:23:56.459 +0530	imagefound	Login_img	found at (959, 115)	8	on_launchurl	Common.script
+2024-02-22 16:23:56.468 +0530	LogSuccess		Assertion Succeeded: (true: ImageFound(20,varlogos))	8	on_launchurl	Common.script
+2024-02-22 16:23:56.848 +0530	Log		***	4	on_login_page	Custom.script
+2024-02-22 16:23:57.814 +0530	click	(TEXT:"Username")	at (814, 254)	3	on_textentry	Common.script
+2024-02-22 16:23:58.564 +0530	typetext		[controlKey]a	5	on_textentry	Common.script
+2024-02-22 16:23:59.700 +0530	typetext		standard_user	6	on_textentry	Common.script
+2024-02-22 16:24:00.752 +0530	click	(TEXT:"Password")	at (814, 308)	3	on_textentry	Common.script
+2024-02-22 16:24:01.505 +0530	typetext		[controlKey]a	5	on_textentry	Common.script
+2024-02-22 16:24:02.615 +0530	typetext		secret_sauce	6	on_textentry	Common.script
+2024-02-22 16:24:03.629 +0530	click	(TEXT:"Login")	at (959, 414)	5	on_clickelement	Common.script
+2024-02-22 16:24:06.789 +0530	imagefound	(TEXT:"Change your password")	found at (837, 235)	11	on_login_page	Custom.script
+2024-02-22 16:24:06.952 +0530	click	ok	at (1132, 345)	12	on_login_page	Custom.script
+2024-02-22 16:24:39.505 +0530	imagefound	(TEXT:"Save password?")	Unable to Find Image (TEXT:"Save password?"). Text not found.	15	on_login_page	Custom.script
+2024-02-22 16:24:40.154 +0530	waitfor	Dashboard	found at (950, 117)	21	on_login_page	Custom.script
+2024-02-22 16:24:42.191 +0530	click	(TEXT:"Sauce Labs Backpack")	at (705, 273)	5	on_clickelement	Common.script
+2024-02-22 16:24:43.843 +0530	waitfor	(TEXT:"Sauce Labs Backpack")	found at (971, 275)	5	on_validate	Common.script
+2024-02-22 16:24:53.419 +0530	LogWarning		Unable to Find Text: Add to cart -- AutoUpdate engaged	5	on_clickelement	Common.script
+2024-02-22 16:24:59.456 +0530	Exception	(TEXT:"Add to cart")	No Text Found On Screen: "(TEXT:"Add to cart")". Text not found.	5	on_clickelement	Common.script
+2024-02-22 16:24:59.569 +0530	EndTestCase		(Duration:"65.295", Errors:"1", Exceptions:"1", StartTime:"2024-02-22 16:23:54 +0530", Successes:"1", TestCase:"Tests/Master_Script.script", Warnings:"1")
+2024-02-22 16:24:59.810 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/Master_Script/20240222_162354.242/Screen_Error.png	CapturedErrorScreenshot	ED3F4530-1C76-AF0F-4C6A-A35D918EA47B
+2024-02-22 16:24:59.818 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"Add to cart")". Text not found.  Restricted Search Rectangle ((7,52),(1916,1037))\n -- Execution Time 0:01:05 Tests/Master_Script.script

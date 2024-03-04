@@ -1,0 +1,6 @@
+﻿2024-02-15 15:26:16.759 +0530	START		Running Tests/TC_B_Shopping_Page.script
+2024-02-15 15:26:24.531 +0530	LogWarning		Unable to Find Text: Sauce Labs Backpack -- AutoUpdate engaged	5	on_clickelement	Common.script
+2024-02-15 15:26:29.431 +0530	Exception	(TEXT:"Sauce Labs Backpack")	No Text Found On Screen: "(TEXT:"Sauce Labs Backpack")". Text not found.	5	on_clickelement	Common.script
+2024-02-15 15:26:29.486 +0530	EndTestCase		(Duration:"12.713", Errors:"1", Exceptions:"1", StartTime:"2024-02-15 15:26:16 +0530", Successes:"0", TestCase:"Tests/TC_B_Shopping_Page.script", Warnings:"1")
+2024-02-15 15:26:29.702 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/TC_B_Shopping_Page/20240215_152616.741/Screen_Error.png	CapturedErrorScreenshot	FC59D26A-76DB-D000-6A3D-90AAED4122CE
+2024-02-15 15:26:29.711 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"Sauce Labs Backpack")". Text not found. -- Execution Time 0:00:12 Tests/TC_B_Shopping_Page.script

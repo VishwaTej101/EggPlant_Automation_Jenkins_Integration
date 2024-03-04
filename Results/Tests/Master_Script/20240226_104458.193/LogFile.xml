@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/Master_Script_script" package="Sauce.suite" timestamp="2024-02-26 10:44:58.193 +0530"
+ tests="1"  failures="0" errors="0" time="7.168000">
+  <properties>
+   <property name="RunDate" value="2024-02-26 10:44:58.193 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Tests/Master_Script.script" assertions="1" status="error"  time="7.146">
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

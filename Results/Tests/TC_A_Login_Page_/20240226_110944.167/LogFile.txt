@@ -1,0 +1,19 @@
+﻿2024-02-26 11:09:44.179 +0530	START		Running Tests/TC_A_Login_Page_.script
+2024-02-26 11:09:44.401 +0530	typetext		[windowsAltKey][F2]	2	on_browser_firefox	Common.script
+2024-02-26 11:09:45.353 +0530	typetext		firefox	3	on_browser_firefox	Common.script
+2024-02-26 11:09:46.130 +0530	typetext		[return]	4	on_browser_firefox	Common.script
+2024-02-26 11:09:46.906 +0530	typetext		[windowsKey]r	3	on_launchurl	Common.script
+2024-02-26 11:09:49.493 +0530	typetext		https://www.saucedemo.com/[returnKey]	5	on_launchurl	Common.script
+2024-02-26 11:09:50.702 +0530	imagefound	Login_img	found at (959, 168)	8	on_launchurl	Common.script
+2024-02-26 11:09:50.712 +0530	LogSuccess		Assertion Succeeded: (true: ImageFound(20,varlogos))	8	on_launchurl	Common.script
+2024-02-26 11:09:50.747 +0530	Log		***	4	on_login_page	Custom.script
+2024-02-26 11:09:52.199 +0530	click	(TEXT:"Username")	at (814, 281)	3	on_textentry	Common.script
+2024-02-26 11:09:52.959 +0530	typetext		[controlKey]a	5	on_textentry	Common.script
+2024-02-26 11:09:54.492 +0530	typetext		standard_user	6	on_textentry	Common.script
+2024-02-26 11:09:55.896 +0530	click	(TEXT:"Password")	at (814, 335)	3	on_textentry	Common.script
+2024-02-26 11:09:56.704 +0530	typetext		[controlKey]a	5	on_textentry	Common.script
+2024-02-26 11:09:58.076 +0530	typetext		secret_sauce	6	on_textentry	Common.script
+2024-02-26 11:09:59.277 +0530	click	(TEXT:"Login")	at (959, 441)	5	on_clickelement	Common.script
+2024-02-26 11:10:24.100 +0530	imagefound	(TEXT:"Change your password")	Unable to Find Image (TEXT:"Change your password"). Text not found.	11	on_login_page	Custom.script
+2024-02-26 11:10:43.752 +0530	EndTestCase		(Duration:"59.562", Errors:"1", Exceptions:"0", StartTime:"2024-02-26 11:09:44 +0530", Successes:"1", TestCase:"Tests/TC_A_Login_Page_.script", Warnings:"0")
+2024-02-26 11:10:43.764 +0530	ABORTED		Execution Time 0:00:59 Tests/TC_A_Login_Page_.script

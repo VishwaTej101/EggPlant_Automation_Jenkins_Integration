@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/TC_A_Login_Page__script" package="Sauce.suite" timestamp="2024-02-15 11:17:08.918 +0530"
+ tests="1"  failures="1" errors="1" time="21.210000">
+  <properties>
+   <property name="RunDate" value="2024-02-15 11:17:08.918 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Tests/TC_A_Login_Page_.script" assertions="2" status="error"  time="21.194">
+    <failure type="FAILURE" message="Image Not Found: click Error - No Text Found On Screen: &quot;(TEXT:&quot;Username&quot;)&quot;. Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\n -- Execution Time 0:00:21 Tests/TC_A_Login_Page_.script" />
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;Username&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

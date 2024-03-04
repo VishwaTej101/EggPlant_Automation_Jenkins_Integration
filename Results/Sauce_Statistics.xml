@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="Tests/TC_A_Login_Page_">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>12</NumberOfRuns>
+  <NumberOfFails>6</NumberOfFails>
+  <FirstRun>2024-02-15 10:11:04 +0530</FirstRun>
+  <LastRun>2024-02-26 10:51:38 +0530</LastRun>
+  <TotalTimeOnSuccess>164.080000</TotalTimeOnSuccess>
+ </script>
+ <script name="Tests/Master_Script">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>6</NumberOfFails>
+  <FirstRun>2024-02-21 17:28:01 +0530</FirstRun>
+  <LastRun>2024-02-26 10:46:19 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Tests/TC_B_Shopping_Page">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-02-15 15:26:16 +0530</FirstRun>
+  <LastRun>2024-02-15 15:26:16 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+</statistics>

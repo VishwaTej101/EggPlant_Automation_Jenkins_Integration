@@ -1,0 +1,7 @@
+﻿2024-02-15 15:26:59.151 +0530	START		Running Tests/TC_A_Login_Page_.script
+2024-02-15 15:26:59.369 +0530	typetext		[windowsKey]r	3	on_launchurl	Common.script
+2024-02-15 15:27:01.196 +0530	typetext		chrome https://www.saucedemo.com/[returnKey]	5	on_launchurl	Common.script
+2024-02-15 15:27:21.291 +0530	imagefound	Login_img	Unable to Find Image Login_img within 20.00 seconds	8	on_launchurl	Common.script
+2024-02-15 15:27:21.345 +0530	EndTestCase		(Duration:"22.183", Errors:"1", Exceptions:"0", StartTime:"2024-02-15 15:26:59 +0530", Successes:"0", TestCase:"Tests/TC_A_Login_Page_.script", Warnings:"0")
+2024-02-15 15:27:21.634 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/TC_A_Login_Page_/20240215_152659.143/Screen_Error.png	CapturedErrorScreenshot	EC96B467-EA31-1000-6FD2-7171965259BD
+2024-02-15 15:27:21.647 +0530	FAILURE	Screen_Error.png	AssertionFailed: (false: ImageFound(20,varlogos)) -- Execution Time 0:00:22 Tests/TC_A_Login_Page_.script

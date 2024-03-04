@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		892,
+		109,
+		135,
+		64
+	],
+	"lastmodifieddate": 1707972147.885,
+	"createddate": 1707972147.885,
+	"name": "Login_Img",
+	"lastfounddate": 1708932519.7130001,
+	"ocrcapturestring": "Swag Lab",
+	"lastfoundlocation": [
+		892,
+		136,
+		135,
+		64
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[67,32]",
+					"Tolerance": "_64",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Login_Img.png",
+				"connectionname": "192.168.1.171",
+				"type": 1,
+				"connectionserverid": "192.168.1.171",
+				"capturerect": [
+					892,
+					109,
+					135,
+					64
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Swag Lab"
+			}
+	]
+}

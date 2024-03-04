@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Tests/TC_B_Shopping_Page">
+ <run>
+  <RunDate>2024-02-15 15:26:16.741 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>12.744000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240215_152616.741/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Sauce Labs Backpack&quot;)&quot;. Text not found.</ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,18 @@
+﻿
+//Action_01
+Common.clickElement "Sauce Labs Backpack"
+
+//Validation_01
+Common.validate "Sauce Labs Backpack"
+
+wait 3
+
+//Action_02
+Common.clickElement "Add to cart"
+
+//validation_02
+Common.validate "Remove"
+
+//Action_03
+Click(ImageFound("shopping_Cart") ), theSearchRectangle: [1841,88,1905,152]
+

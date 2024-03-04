@@ -1,0 +1,18 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-02-15 10:11:04.310 +0530,"Failure",0:00:02,1,0,1,"20240215_101104.310/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Login_img",0
+2024-02-15 10:11:35.542 +0530,"Failure",0:00:02,1,0,1,"20240215_101135.542/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Login_img",0
+2024-02-15 10:12:38.523 +0530,"Success",0:00:02,0,0,0,"20240215_101238.523/LogFile.txt","","",1
+2024-02-15 10:12:49.756 +0530,"Success",0:00:04,0,0,0,"20240215_101249.756/LogFile.txt","","",1
+2024-02-15 11:17:08.918 +0530,"Failure",0:00:21,1,1,1,"20240215_111708.918/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""Username"")"". Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\n",1
+2024-02-15 12:40:01.170 +0530,"Success",0:00:15,0,0,0,"20240215_124001.170/LogFile.txt","","",1
+2024-02-15 12:48:17.974 +0530,"Success",0:00:44,0,0,0,"20240215_124817.974/LogFile.txt","","",1
+2024-02-15 12:49:14.372 +0530,"Success",0:00:44,0,0,0,"20240215_124914.372/LogFile.txt","","",1
+2024-02-15 15:26:59.143 +0530,"Failure",0:00:22,1,0,0,"20240215_152659.143/LogFile.txt","","AssertionFailed -- (false: ImageFound(20,varlogos))",0
+2024-02-15 15:34:54.638 +0530,"Success",0:00:53,0,0,0,"20240215_153454.638/LogFile.txt","","",1
+2024-02-26 10:50:50.590 +0530,"Failure",0:00:09,1,1,1,"20240226_105050.590/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""Username"")"". Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\n",0
+2024-02-26 10:51:38.155 +0530,"Failure",0:00:10,1,1,1,"20240226_105138.155/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""Username"")"". Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\n",0
+2024-02-26 10:53:29.168 +0530,"Aborted",0:00:10,1,0,0,"20240226_105329.168/LogFile.txt","","",0
+2024-02-26 10:56:09.036 +0530,"Aborted",0:00:13,1,0,0,"20240226_105609.036/LogFile.txt","","",0
+2024-02-26 11:08:17.384 +0530,"Aborted",0:00:16,1,0,0,"20240226_110817.384/LogFile.txt","","",0
+2024-02-26 11:08:49.783 +0530,"Aborted",0:00:23,1,0,0,"20240226_110849.783/LogFile.txt","","",0
+2024-02-26 11:09:44.167 +0530,"Aborted",0:00:59,1,0,0,"20240226_110944.167/LogFile.txt","","",1

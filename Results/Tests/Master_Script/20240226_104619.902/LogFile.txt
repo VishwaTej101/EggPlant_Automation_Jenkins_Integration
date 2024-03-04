@@ -1,0 +1,10 @@
+﻿2024-02-26 10:46:19.913 +0530	START		Running Tests/Master_Script.script
+2024-02-26 10:46:20.160 +0530	typetext		[windowsAltKey][F2]	2	on_browser_firefox	Common.script
+2024-02-26 10:46:21.079 +0530	typetext		firefox	3	on_browser_firefox	Common.script
+2024-02-26 10:46:21.822 +0530	typetext		[return]	4	on_browser_firefox	Common.script
+2024-02-26 10:46:21.842 +0530	Log		***	4	on_login_page	Custom.script
+2024-02-26 10:46:25.787 +0530	LogWarning		Unable to Find Text: Username -- AutoUpdate engaged	3	on_textentry	Common.script
+2024-02-26 10:46:26.046 +0530	Exception	(TEXT:"Username")	No Text Found On Screen: "(TEXT:"Username")". Text not found.	3	on_textentry	Common.script
+2024-02-26 10:46:26.166 +0530	EndTestCase		(Duration:"6.242", Errors:"1", Exceptions:"1", StartTime:"2024-02-26 10:46:19 +0530", Successes:"0", TestCase:"Tests/Master_Script.script", Warnings:"1")
+2024-02-26 10:46:26.528 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/Master_Script/20240226_104619.902/Screen_Error.png	CapturedErrorScreenshot	75A443CD-142E-1000-5469-9115C4C57E13
+2024-02-26 10:46:26.537 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"Username")". Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\n -- Execution Time 0:00:06 Tests/Master_Script.script

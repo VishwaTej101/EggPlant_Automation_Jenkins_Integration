@@ -1,0 +1,4 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+Tests/TC_A_Login_Page_,Failure,12,6,2024-02-15 10:11:04 +0530,2024-02-26 10:51:38 +0530,0:00:27
+Tests/Master_Script,Failure,6,6,2024-02-21 17:28:01 +0530,2024-02-26 10:46:19 +0530,0:00:00
+Tests/TC_B_Shopping_Page,Failure,1,1,2024-02-15 15:26:16 +0530,2024-02-15 15:26:16 +0530,0:00:00

@@ -1,0 +1,5 @@
+﻿run "Tests/TC_A_Login_Page_"
+
+run "Tests/TC_B_Shopping_Page"
+
+run "Tests/TC_A_Login_Page_"

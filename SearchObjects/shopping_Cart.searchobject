@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1846,
+		89,
+		68,
+		47
+	],
+	"lastmodifieddate": 1707990287.355,
+	"createddate": 1707990287.355,
+	"name": "shopping_Cart",
+	"lastfounddate": 1707990932.71,
+	"ocrcapturestring": "^0 • •",
+	"lastfoundlocation": [
+		1846,
+		89,
+		68,
+		47
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[34,23]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "shopping_Cart.png",
+				"connectionname": "192.168.1.171",
+				"type": 1,
+				"connectionserverid": "192.168.1.171",
+				"capturerect": [
+					1846,
+					89,
+					68,
+					47
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "^0 • •"
+			}
+	]
+}

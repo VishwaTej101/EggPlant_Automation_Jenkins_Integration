@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/TC_A_Login_Page__script" package="Sauce.suite" timestamp="2024-02-15 10:12:38.523 +0530"
+ tests="1"  failures="0" errors="0" time="2.322000">
+  <properties>
+   <property name="RunDate" value="2024-02-15 10:12:38.523 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Tests/TC_A_Login_Page_.script" assertions="1" status="success"  time="2.303">
+  </testcase>
+ </testsuite>
+</testsuites>

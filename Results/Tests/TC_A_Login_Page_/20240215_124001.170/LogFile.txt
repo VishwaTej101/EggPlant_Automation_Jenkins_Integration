@@ -1,0 +1,16 @@
+﻿2024-02-15 12:40:01.195 +0530	START		Running Tests/TC_A_Login_Page_.script
+2024-02-15 12:40:01.594 +0530	typetext		[windowsKey]r	3	on_launchurl	Common.script
+2024-02-15 12:40:03.443 +0530	typetext		chrome https://www.saucedemo.com/[returnKey]	5	on_launchurl	Common.script
+2024-02-15 12:40:03.494 +0530	imagefound	Login_img	found at (959, 141)	8	on_launchurl	Common.script
+2024-02-15 12:40:03.494 +0530	LogSuccess		Assertion Succeeded: (true: ImageFound(20,varlogos))	8	on_launchurl	Common.script
+2024-02-15 12:40:06.660 +0530	click	(TEXT:"Username")	at (814, 254)	3	on_textentry	Common.script
+2024-02-15 12:40:07.410 +0530	typetext		[controlKey]a	5	on_textentry	Common.script
+2024-02-15 12:40:08.542 +0530	typetext		standard_user	6	on_textentry	Common.script
+2024-02-15 12:40:09.559 +0530	click	(TEXT:"Password")	at (814, 308)	3	on_textentry	Common.script
+2024-02-15 12:40:10.343 +0530	typetext		[controlKey]a	5	on_textentry	Common.script
+2024-02-15 12:40:12.558 +0530	click	(TEXT:"Login")	at (959, 414)	5	on_clickelement	Common.script
+2024-02-15 12:40:15.424 +0530	imagefound	(TEXT:"Change your password")	found at (837, 235)	13	on_launchbrowser	Custom.script
+2024-02-15 12:40:15.890 +0530	click	ok	at (1132, 345)	14	on_launchbrowser	Custom.script
+2024-02-15 12:40:16.360 +0530	waitfor	Dashboard	found at (950, 117)	19	on_launchbrowser	Custom.script
+2024-02-15 12:40:16.491 +0530	EndTestCase		(Duration:"15.296", Errors:"0", Exceptions:"0", StartTime:"2024-02-15 12:40:01 +0530", Successes:"1", TestCase:"Tests/TC_A_Login_Page_.script", Warnings:"0")
+2024-02-15 12:40:16.624 +0530	SUCCESS		Execution Time 0:00:15 Tests/TC_A_Login_Page_.script

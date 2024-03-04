@@ -1,0 +1,60 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login_Page_.script",
+				"identifier": "START",
+				"timestamp": "2024-02-26 11:08:49.797 +0530"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 11:08:50.054 +0530",
+				"message": "[windowsAltKey][F2]",
+				"scriptName": "Common.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 11:08:50.986 +0530",
+				"message": "firefox",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_browser_firefox",
+				"timestamp": "2024-02-26 11:08:51.735 +0530",
+				"message": "[return]",
+				"scriptName": "Common.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-26 11:08:52.497 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-26 11:08:57.285 +0530",
+				"message": "chrome https://www.saucedemo.com/[returnKey]",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"23.04\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-02-26 11:08:49 +0530\", Successes:\"0\", TestCase:\"Tests/TC_A_Login_Page_.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-26 11:09:12.843 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:23 Tests/TC_A_Login_Page_.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-02-26 11:09:12.856 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-26 11:08:49.801 +0530"
+}

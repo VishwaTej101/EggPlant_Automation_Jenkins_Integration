@@ -1,0 +1,18 @@
+﻿2024-02-15 15:34:54.653 +0530	START		Running Tests/TC_A_Login_Page_.script
+2024-02-15 15:34:54.894 +0530	typetext		[windowsKey]r	3	on_launchurl	Common.script
+2024-02-15 15:34:56.697 +0530	typetext		chrome https://www.saucedemo.com/[returnKey]	5	on_launchurl	Common.script
+2024-02-15 15:35:00.515 +0530	imagefound	Login_img	found at (959, 141)	8	on_launchurl	Common.script
+2024-02-15 15:35:00.531 +0530	LogSuccess		Assertion Succeeded: (true: ImageFound(20,varlogos))	8	on_launchurl	Common.script
+2024-02-15 15:35:01.589 +0530	click	(TEXT:"Username")	at (814, 254)	3	on_textentry	Common.script
+2024-02-15 15:35:02.343 +0530	typetext		[controlKey]a	5	on_textentry	Common.script
+2024-02-15 15:35:03.446 +0530	typetext		standard_user	6	on_textentry	Common.script
+2024-02-15 15:35:04.642 +0530	click	(TEXT:"Password")	at (814, 308)	3	on_textentry	Common.script
+2024-02-15 15:35:05.400 +0530	typetext		[controlKey]a	5	on_textentry	Common.script
+2024-02-15 15:35:06.483 +0530	typetext		secret_sauce	6	on_textentry	Common.script
+2024-02-15 15:35:07.602 +0530	click	(TEXT:"Login")	at (959, 414)	5	on_clickelement	Common.script
+2024-02-15 15:35:11.096 +0530	imagefound	(TEXT:"Change your password")	found at (837, 235)	11	on_login_page	Custom.script
+2024-02-15 15:35:11.339 +0530	click	ok	at (1132, 345)	12	on_login_page	Custom.script
+2024-02-15 15:35:47.156 +0530	imagefound	(TEXT:"Save password?")	Unable to Find Image (TEXT:"Save password?"). Text not found.	15	on_login_page	Custom.script
+2024-02-15 15:35:47.862 +0530	waitfor	Dashboard	found at (950, 117)	21	on_login_page	Custom.script
+2024-02-15 15:35:48.025 +0530	EndTestCase		(Duration:"53.363", Errors:"0", Exceptions:"0", StartTime:"2024-02-15 15:34:54 +0530", Successes:"1", TestCase:"Tests/TC_A_Login_Page_.script", Warnings:"0")
+2024-02-15 15:35:48.126 +0530	SUCCESS		Execution Time 0:00:53 Tests/TC_A_Login_Page_.script

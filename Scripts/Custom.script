@@ -1,0 +1,32 @@
+﻿
+
+
+to handle LaunchBrowser
+	Common.launchURL "chrome", "https://www.saucedemo.com/", "Login_img"
+	
+end LaunchBrowser
+
+to handle Login_Page
+	(*	common.Clear_history*)
+	//Action_01
+	log "***"
+	Common.textEntry "Username",item 1 of External_File_reading.ReadCsvData("LoginCredentials.csv","1","2" ) , "loginArea",(config().dataEntry.textBoxOffsetLoginPage)
+	
+	Common.textEntry "Password",item 1 of External_File_reading.ReadCsvData("LoginCredentials.csv","2","2" ), "loginArea", (config().dataEntry.textBoxOffsetLoginPage)
+	
+	Common.clickElement "Login","loginbtn"
+	
+	if(ImageFound(text:"Change your password"))then 
+		Click image:"ok"
+	end if
+	
+	if(ImageFound(text:"Save password?")) then
+		Click image: "Never"
+	end if
+	
+	//Validation_01
+	
+	WaitFor 10, image:"Dashboard"
+	
+end Login_Page
+

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Tests/TC_A_Login_Page_">
+ <run>
+  <RunDate>2024-02-15 10:11:04.310 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.511000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240215_101104.310/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- imagefound Error - Could Not Open Image: Login_img</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 10:11:35.542 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.242000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240215_101135.542/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- imagefound Error - Could Not Open Image: Login_img</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 10:12:38.523 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.322000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240215_101238.523/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 10:12:49.756 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>4.178000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240215_101249.756/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 11:17:08.918 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>21.210000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240215_111708.918/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Username&quot;)&quot;. Text not found.  Restricted Search Rectangle ((778,206),(1146,453))
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 12:40:01.170 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>15.321000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240215_124001.170/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 12:48:17.974 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>44.619000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240215_124817.974/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 12:49:14.372 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>44.256000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240215_124914.372/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 15:26:59.143 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>22.200000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240215_152659.143/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: ImageFound(20,varlogos))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-15 15:34:54.638 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>53.384000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240215_153454.638/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-26 10:50:50.590 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>9.958000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240226_105050.590/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Username&quot;)&quot;. Text not found.  Restricted Search Rectangle ((778,206),(1146,453))
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-26 10:51:38.155 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>10.346000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240226_105138.155/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Username&quot;)&quot;. Text not found.  Restricted Search Rectangle ((778,206),(1146,453))
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-26 10:53:29.168 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>10.928000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240226_105329.168/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-26 10:56:09.036 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>13.502000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240226_105609.036/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-26 11:08:17.384 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>16.918000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240226_110817.384/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-26 11:08:49.783 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>23.058000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240226_110849.783/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-02-26 11:09:44.167 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>59.582000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240226_110944.167/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

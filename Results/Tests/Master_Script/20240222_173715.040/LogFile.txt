@@ -1,0 +1,4 @@
+﻿2024-02-22 17:37:15.066 +0530	START		Running Tests/Master_Script.script
+2024-02-22 17:37:15.434 +0530	Exception		Remote Connection Unavailable	3	on_launchurl	Common.script
+2024-02-22 17:37:15.494 +0530	EndTestCase		(Duration:"0.408", Errors:"1", Exceptions:"1", StartTime:"2024-02-22 17:37:15 +0530", Successes:"0", TestCase:"Tests/Master_Script.script", Warnings:"0")
+2024-02-22 17:37:15.551 +0530	FAILURE		No Remote Connection: typetext Error - Remote Connection Unavailable -- Execution Time 0:00:00 Tests/Master_Script.script

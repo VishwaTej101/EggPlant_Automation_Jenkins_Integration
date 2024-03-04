@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/Master_Script_script" package="Sauce.suite" timestamp="2024-02-22 16:17:12.111 +0530"
+ tests="1"  failures="0" errors="0" time="57.213000">
+  <properties>
+   <property name="RunDate" value="2024-02-22 16:17:12.111 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Tests/Master_Script.script" assertions="2" status="error"  time="57.154">
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;Add to cart&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

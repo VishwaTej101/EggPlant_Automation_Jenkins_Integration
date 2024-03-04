@@ -1,0 +1,102 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login_Page_.script",
+				"identifier": "START",
+				"timestamp": "2024-02-15 11:17:08.927 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 11:17:09.217 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 11:17:11.065 +0530",
+				"message": "chrome https://www.saucedemo.com/[returnKey]",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 11:17:14.474 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (959, 141)",
+				"image": "Login_img",
+				"handlerLine": 8,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-02-15 11:17:14.481 +0530",
+				"message": "Assertion Succeeded: (true: ImageFound(20,varlogos))",
+				"scriptName": "Common.script",
+				"handlerLine": 8,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_clear_history",
+				"timestamp": "2024-02-15 11:17:14.665 +0530",
+				"message": "[controlKey][shiftKey][deleteKey]",
+				"scriptName": "Common.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clear_history",
+				"timestamp": "2024-02-15 11:17:23.262 +0530",
+				"scriptName": "Common.script",
+				"message": "found 1 images",
+				"image": "(TEXT:\"Clear data\")",
+				"handlerLine": 6,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_clear_history",
+				"timestamp": "2024-02-15 11:17:23.428 +0530",
+				"message": "at (1153, 766)",
+				"scriptName": "Common.script",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 11:17:28.462 +0530",
+				"message": "Unable to Find Text: Username -- AutoUpdate engaged",
+				"scriptName": "Common.script",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2024-02-15 11:17:30.059 +0530",
+				"scriptName": "Common.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Username\")\". Text not found.",
+				"image": "(TEXT:\"Username\")",
+				"handlerLine": 3,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"21.194\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-02-15 11:17:08 +0530\", Successes:\"1\", TestCase:\"Tests/TC_A_Login_Page_.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-15 11:17:30.128 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/EPF_WS/Demo_Suite_Sauce/Sauce.suite/Results/Tests/TC_A_Login_Page_/20240215_111708.918/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-02-15 11:17:30.394 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:\"Username\")\". Text not found.  Restricted Search Rectangle ((778,206),(1146,453))\\n -- Execution Time 0:00:21 Tests/TC_A_Login_Page_.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-02-15 11:17:30.400 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-15 11:17:08.932 +0530"
+}

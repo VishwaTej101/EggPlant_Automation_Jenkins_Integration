@@ -1,0 +1,37 @@
+﻿return { 
+
+	SUT:{
+		chrome:[7,52,1916,1037],
+		DesktopClient:[540,118,1371,796],
+		loginArea:[778,206,1146,453],
+		loginbtn:[808,380,1112,453],
+		employee_name:[1084,298,1849,387],
+		employee_username:[1084,384,1849,473],
+		emp_password:[323,477,1088,566],
+		emp_cnf_password:[1087,478,1852,567],
+		validation_username:[319,299,701,388],
+		Admin_Icon:[50,212,116,258],
+		Add_Btn:[318,501,438,548],
+		employee_leave_name:[325,375,829,456],
+		entitlements_area:[1344,456,1844,544],
+		leave_save:[],
+		yes_delete:[947,295,1102,350],
+		recruit_firstname:[319,300,839,394],
+		recruit_lastname:[1324,307,1844,401],
+		filename:[131,650,854,696],
+		Login:[706,370,834,434]
+
+	},
+	
+	dataEntry:{
+		textBoxOffset:[20,25],
+		searchBoxOffset:[20,30],
+		checkBoxOffset:[-20,0],
+		DropBoxOffset:[10,20],
+		DropBoxSelectionOffset:[10,5],
+		textBoxOffsetLoginPage:[0,0],
+		emplyee_hint:[1195,401],
+		employee_hint_leave:[400,478],
+		sidebox:[0,20]
+	}
+}

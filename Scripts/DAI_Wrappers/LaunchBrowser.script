@@ -1,0 +1,10 @@
+﻿
+to handle launchbrowser
+
+	(*
+	custom.LaunchBrowser
+	*)
+	Common.Browser_Firefox
+	
+	
+end launchbrowser
